@@ -30,9 +30,11 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
-          'Snap News',
-          style: TextStyle(fontWeight: FontWeight.bold),
+        title: Center(
+          child: const Text(
+            'Snap News',
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
         ),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
       ),
